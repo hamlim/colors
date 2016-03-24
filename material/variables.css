@@ -1,3 +1,100 @@
 :root {
+    /*
+        Material colors provided by: https://github.com/romannurik/MaterialColorsApp
+
+        Table of Contents:
+
+            Red
+            Pink
+            Purple
+            Deep Purple
+            indigo
+            blue
+            light blue
+            cyan
+            teal
+            green
+            light green
+            lime
+            yellow
+            amber
+            orange
+            Deep orange
+            brown
+            grey
+            blue grey
+    */
+
+    /*
+        Red
+    */
+    --red-fifty: #FFEBEE;
+    --red-onehundred: #FFCDD2;
+    --red-twohundred: #EF9A9A;
+    --red-threehundred: #E57373;
+    --red-fourhundred: #EF5350;
+    --red-fivehundred: #F44336;
+    --red-sixhundred: #E53935;
+    --red-sevenhundred: #D32F2F;
+    --red-eighthundred: #C62828;
+    --red-ninehundred: #B71C1C;
+    --red-Aonehundred: #FF8A80;
+    --red-Atwohundred: #FF5252;
+    --red-Afourhundred: #FF1744;
+    --red-Asevenhundred: #D50000;
+
+    /*
+        Pink
+    */
+    --pink-fifty: #FCE4EC;
+    --pink-onehundred: #F8BBD0;
+    --pink-twohundred: #F48FB1;
+    --pink-threehundred: #F06292;
+    --pink-fourhundred: #EC407A;
+    --pink-fivehundred: #E91E63;
+    --pink-sixhundred: #D81B60;
+    --pink-sevenhundred: #C2185B;
+    --pink-eighthundred: #AD1457;
+    --pink-ninehundred: #880E4F;
+    --pink-Aonehundred: #FF80AB;
+    --pink-Atwohundred: #FF4081;
+    --pink-Afourhundred: #F50057;
+    --pink-Asevenhundred: #C51162;
+
+    /*
+        Purple
+    */
+    --purple-fifty: #F3E5F5;
+    --purple-onehundred: #E1BEE7;
+    --purple-twohundred: #CE93D8;
+    --purple-threehundred: #BA68C8;
+    --purple-fourhundred: #AB47BC;
+    --purple-fivehundred: #9C27B0;
+    --purple-sixhundred: #8E24AA;
+    --purple-sevenhundred: #7B1FA2;
+    --purple-eighthundred: #6A1B9A;
+    --purple-ninehundred: #4A148C;
+    --purple-Aonehundred: #EA80FC;
+    --purple-Atwohundred: #E040FB;
+    --purple-Afourhundred: #AA00FF;
+    --purple-Asevenhundred: #AA00FF;
+
+    /*
+        Deep Purple
+    */
+    --deep-purple-fifty: #EDE7F6;
+    --deep-purple-onehundred: #D1C4E9;
+    --deep-purple-twohundred: ;
+    --deep-purple-threehundred: ;
+    --deep-purple-fourhundred: ;
+    --deep-purple-fivehundred: ;
+    --deep-purple-sixhundred: ;
+    --deep-purple-sevenhundred: ;
+    --deep-purple-eighthundred: ;
+    --deep-purple-ninehundred: ;
+    --deep-purple-Aonehundred: ;
+    --deep-purple-Atwohundred: ;
+    --deep-purple-Afourhundred: ;
+    --deep-purple-Asevenhundred: ;
 
 }
