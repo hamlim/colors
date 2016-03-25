@@ -82,37 +82,55 @@
     /*
         Deep Purple
     */
-    --deep-purple-fifty: #EDE7F6;
-    --deep-purple-onehundred: #D1C4E9;
-    --deep-purple-twohundred: #B39DDB;
-    --deep-purple-threehundred: #9575CD;
-    --deep-purple-fourhundred: #7E57C2;
-    --deep-purple-fivehundred: #673AB7;
-    --deep-purple-sixhundred: #5E35B1;
-    --deep-purple-sevenhundred: #512DA8;
-    --deep-purple-eighthundred: #4527A0;
-    --deep-purple-ninehundred: #311B92;
-    --deep-purple-Aonehundred: #B388FF;
-    --deep-purple-Atwohundred: #7C4DFF;
-    --deep-purple-Afourhundred: #651FFF;
+    --deep-purple-fifty:         #EDE7F6;
+    --deep-purple-onehundred:    #D1C4E9;
+    --deep-purple-twohundred:    #B39DDB;
+    --deep-purple-threehundred:  #9575CD;
+    --deep-purple-fourhundred:   #7E57C2;
+    --deep-purple-fivehundred:   #673AB7;
+    --deep-purple-sixhundred:    #5E35B1;
+    --deep-purple-sevenhundred:  #512DA8;
+    --deep-purple-eighthundred:  #4527A0;
+    --deep-purple-ninehundred:   #311B92;
+    --deep-purple-Aonehundred:   #B388FF;
+    --deep-purple-Atwohundred:   #7C4DFF;
+    --deep-purple-Afourhundred:  #651FFF;
     --deep-purple-Asevenhundred: #6200EA;
 
     /*
         Indigo
     */
-    --indigo-fifty: #E8EAF6;
-    --indigo-onehundred: #C5CAE9;
-    --indigo-twohundred: ;#9FA8DA
-    --indigo-threehundred: #7986CB;
-    --indigo-fourhundred: #5C6BC0;
-    --indigo-fivehundred: #3F51B5;
-    --indigo-sixhundred: #3949AB;
-    --indigo-sevenhundred: #303F9F;
-    --indigo-eighthundred: #283593;
-    --indigo-ninehundred: #1A237E;
-    --indigo-Aonehundred: #8C9EFF;
-    --indigo-Atwohundred: #536DFE;
-    --indigo-Afourhundred: #3D5AFE;
+    --indigo-fifty:         #E8EAF6;
+    --indigo-onehundred:    #C5CAE9;
+    --indigo-twohundred:    #9FA8DA;
+    --indigo-threehundred:  #7986CB;
+    --indigo-fourhundred:   #5C6BC0;
+    --indigo-fivehundred:   #3F51B5;
+    --indigo-sixhundred:    #3949AB;
+    --indigo-sevenhundred:  #303F9F;
+    --indigo-eighthundred:  #283593;
+    --indigo-ninehundred:   #1A237E;
+    --indigo-Aonehundred:   #8C9EFF;
+    --indigo-Atwohundred:   #536DFE;
+    --indigo-Afourhundred:  #3D5AFE;
     --indigo-Asevenhundred: #304FFE;
+
+    /*
+        Blue
+    */
+    --blue-fifty:         #E8EAF6;
+    --blue-onehundred:    #C5CAE9;
+    --blue-twohundred: ;  #9FA8DA
+    --blue-threehundred:  #7986CB;
+    --blue-fourhundred:   #5C6BC0;
+    --blue-fivehundred:   #3F51B5;
+    --blue-sixhundred:    #3949AB;
+    --blue-sevenhundred:  #303F9F;
+    --blue-eighthundred:  #283593;
+    --blue-ninehundred:   #1A237E;
+    --blue-Aonehundred:   #8C9EFF;
+    --blue-Atwohundred:   #536DFE;
+    --blue-Afourhundred:  #3D5AFE;
+    --blue-Asevenhundred: #304FFE;
 
 }
