@@ -1,0 +1,55 @@
+@import "variables.css"
+
+/*
+    Red
+*/
+
+.bg--soft-red {
+    background-color: var(--soft-red, #EC644B);
+}
+.bg--chestnut-rose {
+    background-color: var(--chestnut-red, #D24D57);
+}
+.bg--pomegranate {
+    background-color: var(--pomegranate, #F22613);
+}
+.bg--thunderbird {
+    background-color: var(--thunderbird, #D91E18);
+}
+.bg--old-brick {
+    background-color: var(--old-brick, #96281B);
+}
+.bg--flamingo {
+    background-color: var(--flamingo, #EF4836);
+}
+.bg--valenvia {
+    background-color: var(--valenvia, #D64541);
+}
+.bg--tall-poppy {
+    background-color: var(--tall-poppy, #C0392B);
+}
+.bg--monza {
+    background-color: var(--monza, #CF000F);
+}
+.bg--cinnabar {
+    background-color: var(--cinnabar, #E74C3C);
+}
+
+/*
+    Pink
+*/
+.bg--razzmatazz {
+    background-color: var(--razzmatazz, #DB0A5B);
+}
+.bg--sunset-orange {
+    background-color: var(--sunset-orange, #F64747);
+}
+.bg--wax-flower {
+    background-color: var(--wax-flower, #F1A9A0);
+}
+.bg--cabaret {
+    background-color: var(--cabaret, #D2527F);
+}
+.bg--new-york-pink {
+    background-color: var(--new-york-pink, #E08283);
+}
