@@ -28,55 +28,55 @@
     /*
         Red
     */
-    --red-fifty: #FFEBEE;
-    --red-onehundred: #FFCDD2;
-    --red-twohundred: #EF9A9A;
-    --red-threehundred: #E57373;
-    --red-fourhundred: #EF5350;
-    --red-fivehundred: #F44336;
-    --red-sixhundred: #E53935;
-    --red-sevenhundred: #D32F2F;
-    --red-eighthundred: #C62828;
-    --red-ninehundred: #B71C1C;
-    --red-Aonehundred: #FF8A80;
-    --red-Atwohundred: #FF5252;
-    --red-Afourhundred: #FF1744;
+    --red-fifty:         #FFEBEE;
+    --red-onehundred:    #FFCDD2;
+    --red-twohundred:    #EF9A9A;
+    --red-threehundred:  #E57373;
+    --red-fourhundred:   #EF5350;
+    --red-fivehundred:   #F44336;
+    --red-sixhundred:    #E53935;
+    --red-sevenhundred:  #D32F2F;
+    --red-eighthundred:  #C62828;
+    --red-ninehundred:   #B71C1C;
+    --red-Aonehundred:   #FF8A80;
+    --red-Atwohundred:   #FF5252;
+    --red-Afourhundred:  #FF1744;
     --red-Asevenhundred: #D50000;
 
     /*
         Pink
     */
-    --pink-fifty: #FCE4EC;
-    --pink-onehundred: #F8BBD0;
-    --pink-twohundred: #F48FB1;
-    --pink-threehundred: #F06292;
-    --pink-fourhundred: #EC407A;
-    --pink-fivehundred: #E91E63;
-    --pink-sixhundred: #D81B60;
-    --pink-sevenhundred: #C2185B;
-    --pink-eighthundred: #AD1457;
-    --pink-ninehundred: #880E4F;
-    --pink-Aonehundred: #FF80AB;
-    --pink-Atwohundred: #FF4081;
-    --pink-Afourhundred: #F50057;
+    --pink-fifty:         #FCE4EC;
+    --pink-onehundred:    #F8BBD0;
+    --pink-twohundred:    #F48FB1;
+    --pink-threehundred:  #F06292;
+    --pink-fourhundred:   #EC407A;
+    --pink-fivehundred:   #E91E63;
+    --pink-sixhundred:    #D81B60;
+    --pink-sevenhundred:  #C2185B;
+    --pink-eighthundred:  #AD1457;
+    --pink-ninehundred:   #880E4F;
+    --pink-Aonehundred:   #FF80AB;
+    --pink-Atwohundred:   #FF4081;
+    --pink-Afourhundred:  #F50057;
     --pink-Asevenhundred: #C51162;
 
     /*
         Purple
     */
-    --purple-fifty: #F3E5F5;
-    --purple-onehundred: #E1BEE7;
-    --purple-twohundred: #CE93D8;
-    --purple-threehundred: #BA68C8;
-    --purple-fourhundred: #AB47BC;
-    --purple-fivehundred: #9C27B0;
-    --purple-sixhundred: #8E24AA;
-    --purple-sevenhundred: #7B1FA2;
-    --purple-eighthundred: #6A1B9A;
-    --purple-ninehundred: #4A148C;
-    --purple-Aonehundred: #EA80FC;
-    --purple-Atwohundred: #E040FB;
-    --purple-Afourhundred: #AA00FF;
+    --purple-fifty:         #F3E5F5;
+    --purple-onehundred:    #E1BEE7;
+    --purple-twohundred:    #CE93D8;
+    --purple-threehundred:  #BA68C8;
+    --purple-fourhundred:   #AB47BC;
+    --purple-fivehundred:   #9C27B0;
+    --purple-sixhundred:    #8E24AA;
+    --purple-sevenhundred:  #7B1FA2;
+    --purple-eighthundred:  #6A1B9A;
+    --purple-ninehundred:   #4A148C;
+    --purple-Aonehundred:   #EA80FC;
+    --purple-Atwohundred:   #E040FB;
+    --purple-Afourhundred:  #AA00FF;
     --purple-Asevenhundred: #AA00FF;
 
     /*
@@ -118,19 +118,19 @@
     /*
         Blue
     */
-    --blue-fifty:         #E8EAF6;
-    --blue-onehundred:    #C5CAE9;
-    --blue-twohundred: ;  #9FA8DA
-    --blue-threehundred:  #7986CB;
-    --blue-fourhundred:   #5C6BC0;
-    --blue-fivehundred:   #3F51B5;
-    --blue-sixhundred:    #3949AB;
-    --blue-sevenhundred:  #303F9F;
-    --blue-eighthundred:  #283593;
-    --blue-ninehundred:   #1A237E;
-    --blue-Aonehundred:   #8C9EFF;
-    --blue-Atwohundred:   #536DFE;
-    --blue-Afourhundred:  #3D5AFE;
-    --blue-Asevenhundred: #304FFE;
+    --blue-fifty:         #E3F2FD;
+    --blue-onehundred:    #BBDEFB;
+    --blue-twohundred:    #90CAF9;
+    --blue-threehundred:  #64B5F6;
+    --blue-fourhundred:   #42A5F5;
+    --blue-fivehundred:   #2196F3;
+    --blue-sixhundred:    #1E88E5;
+    --blue-sevenhundred:  #1976D2;
+    --blue-eighthundred:
+    --blue-ninehundred:
+    --blue-Aonehundred:
+    --blue-Atwohundred:
+    --blue-Afourhundred:
+    --blue-Asevenhundred: 
 
 }
