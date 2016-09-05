@@ -1,0 +1,44 @@
+// This is a small RWD breakpoint store for my generic breakpoints
+// I am using my Typography Pen as a default font size, so HTML is 24px
+// Using http://pxtoem.com/ to convert the px breakpoints provided by getskeleton.com
+
+$phone: 16.667em;
+$phablet: 22.197em;
+$tablet: 31.250em;
+$desktop: 41.667em;
+$xl: 50.00em;
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@mixin phone {
+	@media screen and (min-width: $phone) {
+		@content;
+	}	
+}
+
+/* Larger than phablet */
+@mixin phablet {
+	@media screen and (min-width: $phablet) {
+		@content;
+	}
+}
+
+/* Larger than tablet */
+@mixin tablet {
+	@media screen and (min-width: $tablet) {
+		@content;
+	}
+}
+/* Larger than desktop */
+@mixin desktop {
+	@media screen and (min-width: $desktop) {
+		@content;
+	}
+}
+/* Larger than Desktop HD */
+@mixin xl {
+	@media screen and (min-width: $xl) {
+		@content;
+	}
+}

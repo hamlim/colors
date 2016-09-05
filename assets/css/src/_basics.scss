@@ -1,0 +1,66 @@
+// _basics.scss
+
+// Opinnionated basics for matthamlin.me
+
+a {
+	text-decoration: none;
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.link {
+	color: $shamrock;
+	&:hover {
+		color: $ripe-lemon;
+	}
+	&--active {
+		color: $orange1;
+	}
+
+	&--special {
+		color: $picton-blue-vone;
+		&:hover {
+			color: $ecstasy;
+		}
+	}
+}
+
+.clr--blue {
+    color: $picton-blue-vone;
+}
+.bg--blue {
+    background-color: $picton-blue-vone;
+}
+.clr--yellow {
+    color: $ripe-lemon;
+}
+.bg--yellow {
+    background-color: $ripe-lemon;
+}
+.clr--green {
+    color: $shamrock;
+}
+.bg--green {
+    background-color: $shamrock;
+}
+
+.page, .footer, .main, .menu {
+    margin: 0 auto;
+    @include phone {
+        width: 100vw;
+    }
+    @include phablet {
+        width: 90vw;
+    }
+    @include tablet {
+        width: 85vw;
+    }
+    @include desktop {
+        width: 70vw;
+    }
+    @include xl {
+        width: 60vw;
+    }
+}

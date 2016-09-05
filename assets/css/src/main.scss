@@ -1,0 +1,47 @@
+@import 'reset';
+@import 'breakpoints';
+@import 'grid';
+@import 'typography';
+@import 'colors';
+@import 'my_colors';
+@import 'vars';
+@import 'basics';
+
+
+// Include the required mixins
+@include typography();
+
+// Generic Styles
+
+.header-wrap {
+	height: 90vh;
+	width: 100vw;
+	background-color: $ripe-lemon;
+	color: $black;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
+.page {
+	display: flex;
+	flex-direction: column;
+}
+.header, .main, .footer {
+	width: 60vw;
+	margin: 0 auto;
+}
+.main-wrap, .footer-wrap {
+	width: 100vw;
+}
+.main-wrap {
+	background-color: $white;
+	color: $black;
+}
+.footer-wrap {
+	background-color: $picton-blue-vone;
+	color: black;
+	align-self: flex-end;
+}

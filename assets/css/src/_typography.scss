@@ -1,0 +1,158 @@
+@mixin typography {
+	$base: calc(0.75em + 1vw);
+
+	$line-base: 1;
+	$line-1: 1.1;
+	$line-2: 1.2;
+	$line-3: 1.4;
+	$line-4: 1.5;
+	$line-5: 1.6;
+	
+	// @import 'https://fonts.googleapis.com/css?family=Montserrat';
+	// @import 'https://fonts.googleapis.com/css?family=Roboto:300,400|Space+Mono';
+
+	html {
+		font-size: $base;
+		line-height: $line-base;
+		font-family: "Roboto", sans-serif;
+		font-weight: 300;
+		@include phone {
+			line-height: $line-1;
+		}
+		@include phablet {
+			line-height: $line-2;
+		}
+		@include tablet {
+			line-height: $line-3;
+		}
+		@include desktop {
+			line-height: $line-4;
+		}
+		@include xl {
+			line-height: $line-5;
+		}
+	}
+	h1 {
+		font-weight: 400;
+		&:not(.escape--default) {
+			font-size: calc(#{$base} * 1.7);	
+		}
+	}
+	h2 {
+		font-weight: 400;
+		&:not(.escape--default) {
+			font-size: calc(#{$base} * 1.4);
+		}
+	}
+	h3 {
+		font-weight: 400;
+		&:not(.escape--default) {
+			font-size: calc(#{$base} * 1.1);
+		}
+	}
+	h4 {
+		font-weight: 400;
+		&:not(.escape--default) {
+			font-size: calc(#{$base} * 0.7);
+		}
+	}
+	h5 {
+		font-weight: 400;
+		&:not(.escape--default) { 
+			font-size: calc(#{$base} * 0.5);
+		}
+	}
+	h6 {
+		font-weight: 400;
+		&:not(.escape--default) {
+			font-size: calc(#{$base} * 0.3);
+		}
+	}
+	small {
+		&:not(.escape--default) {
+			font-size: calc(#{$base} * 0.2);
+		}
+	}
+	i, em {
+		&:not(.escape--default) {
+			font-style: italic;
+		}
+		&.escape--default {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: inherit;
+			font: inherit;
+			vertical-align: baseline;
+		}
+	}
+	h1, h2, h3, h4, h5, h6, small, p, ul, ol {
+		&:not(.escape--default) {
+			margin-bottom: 1em;
+		}
+		&.escape--default {
+			padding: 0 0 .25em 0;
+			margin: 0;
+			border: 0;
+			font-size: inherit;
+			font: inherit;
+			vertical-align: baseline;
+		}
+	}
+	ul, ol {
+		&:not(.escape--default) {
+			list-style-position: inside;
+		}
+	}
+	pre {
+		font-size: 70%;
+		position: relative;
+		margin-bottom: 1em;
+		border-right: solid 4px $green1;
+		border-left: solid 4px $green1;
+		font-family: "Space Mono", monospace;
+		background-color: $cararra;
+		padding: 0 3em 0 1em;
+		&:after {
+			content: attr(data-lang);
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 0 0.25em 0.25em 0.25em;
+			color: black;
+			background-color: #ccc;
+			z-index: 2;
+			border-bottom-left-radius: 4px
+		}
+		&.inline-block {
+			padding: 0.25em;
+			display: inline-block;
+			&:after{
+				display: none;
+			}
+		}
+	}
+	kbd, var {
+		&:not(.escape--defaults) {
+			font-family: "Space Mono", monospace;
+			background-color: #ccc;
+			border-radius: 0.25em;
+			color: $black;
+			font-size: 90%;
+			padding-top: 0.1em;
+			padding-bottom: 0.1em;
+			display: inline-block;
+		}
+		font-family: "Questrial", sans-serif;
+		background-color: $lgray1;
+		color: $black;
+		font-size: 90%;
+	}
+	sup {
+		vertical-align: super;
+    font-size: smaller;
+	}
+	.tac {
+		text-align: center;
+	}
+}
