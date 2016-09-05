@@ -7,5 +7,22 @@ import { Header, Main, Footer } from './assets/js/components'
 
 
 ReactDOM.render(<Header />, document.getElementById('header'));
-ReactDOM.render(<Main />, document.getElementById('main'));
 ReactDOM.render(<Footer />, document.getElementById('footer'));
+
+
+fetch( 'https://boilerplate-dhpkgfwgrp.now.sh/', {// 'https://tonicdev.io/matthamlin/colors-api/branches/master', {
+	mode: 'cors',
+	method: "GET",
+  headers: {
+    "Accept": "application/json"
+  }
+}).then(function(resp){
+	console.log(resp);
+	return resp.json();
+}).then(function(colors) {
+	ReactDOM.render(<Main colors={colors.colors}/>, document.getElementById('main'));
+	return true;
+}).catch(function(error) {
+	console.log(error);
+	return false;
+});

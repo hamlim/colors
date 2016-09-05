@@ -16,13 +16,17 @@
 .header-wrap {
 	height: 90vh;
 	width: 100vw;
-	background-color: $ripe-lemon;
+	background: linear-gradient(135deg, $ripe-lemon 0%, $picton-blue-vone 100%);
 	color: $black;
-}
-.header {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header, .footer {
 	flex-direction: column;
-	justify-content: space-around;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
 }
 .page {
@@ -30,8 +34,7 @@
 	flex-direction: column;
 }
 .header, .main, .footer {
-	width: 60vw;
-	margin: 0 auto;
+	width: 100vw;
 }
 .main-wrap, .footer-wrap {
 	width: 100vw;
@@ -41,7 +44,16 @@
 	color: $black;
 }
 .footer-wrap {
-	background-color: $picton-blue-vone;
+	background-color: $cararra;
 	color: black;
 	align-self: flex-end;
+}
+.color {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 33vh;
+}
+.label {
+	background-color: white;
 }
