@@ -48,7 +48,6 @@ const Swatch = styled.div`
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
-  background-color: attr(color);
   display: inline-block;
   margin-left: 1rem;
 `
@@ -81,7 +80,7 @@ const Color = color =>
       <ColorName>
         {color.name}
       </ColorName>
-      <Swatch color={color.hex} />
+      <Swatch style={{ backgroundColor: color.hex }} />
     </Link>
   </ColorContainer>
 
@@ -805,7 +804,7 @@ export default () =>
       </Copy>
       <section>
         <ul style={{ listStyleType: 'none' }}>
-          {colors.map(color => <Color key={color.hex} {...color} />)}
+          {colors.map(color => <Color key={color.name} {...color} />)}
         </ul>
       </section>
     </Container>
