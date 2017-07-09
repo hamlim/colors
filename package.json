@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "emotion": "^5.2.0",
+    "next": "beta",
+    "react": "16.0.0-alpha.13",
+    "react-dom": "16.0.0-alpha.13"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  }
+}
