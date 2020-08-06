@@ -2,8 +2,8 @@
   "dependencies": {
     "emotion": "^5.2.0",
     "next": "^9.5.1",
-    "react": "16.0.0-alpha.13",
-    "react-dom": "16.0.0-alpha.13"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "dev": "next",
