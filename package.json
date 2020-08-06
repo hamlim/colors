@@ -9,6 +9,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "deploy": "vercel"
+  },
+  "devDependencies": {
+    "vercel": "^19.2.0"
   }
 }
